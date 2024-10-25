@@ -21,25 +21,9 @@
     </head>
 <body>
    <!-- Navigation-->
-   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html#page-top">AdSlide</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ms-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="index.html#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+   <?php
+    include_once('navbar.php')
+    ?>
     <section>
         <div class="container privacy-div">
             <div class="text-uppercase text-center">
@@ -56,7 +40,7 @@
         <li>Individuals under the age of 18 must obtain permission from a parent or guardian before purchasing tickets.</li>
     </ul>
 
-    <h3>2. Ticket Purchase and Delivery</h3>
+    <h. Ticket Purchase and Delivery</h3>
     <ul>
       <li>All tickets are sold on a first-come, first-served basis, subject to availability.</li>
       <li>The total cost of the ticket will be displayed during checkout, including any taxes or processing fees.</li>
@@ -69,7 +53,7 @@
     <ul>
       <li>All sales are final. Tickets are non-refundable unless the event is canceled by college administration or in extraordinary circumstances (at the discretion of adslide).</li>
       <li>If the event is postponed, tickets will be valid for the new date.</li>
-      <li><a href="refund.html">Refund Policy</a></li>
+      <li><a href="refund.php">Refund Policy</a></li>
     </ul>
 
     <h3>4. Event Entry</h3>
@@ -98,7 +82,7 @@
       <li>We collect personal information such as your name, URN, and payment details to process ticket orders. By using our platform, you consent to this collection and the use of your data as outlined in our Privacy Policy.</li>
       <li>Your personal information will not be shared with third parties except as necessary to process transactions or comply with legal obligations.</li>
       <li>We take reasonable measures to ensure that your data is kept secure and protected from unauthorized access or disclosure.</li>
-      <li><a href="privacy_policy.html">Privacy Policy</a></li>
+      <li><a href="privacy_policy.php">Privacy Policy</a></li>
     </ul>
 
     <h3>8. Intellectual Property</h3>
