@@ -89,6 +89,11 @@
 
         </div>
     </section>
+    <footer class="footer py-4">
+            <?php
+            include_once('footer.php')
+            ?>
+        </footer>
 
 
     <!-- Bootstrap core JS-->

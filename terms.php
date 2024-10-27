@@ -40,7 +40,7 @@
         <li>Individuals under the age of 18 must obtain permission from a parent or guardian before purchasing tickets.</li>
     </ul>
 
-    <h. Ticket Purchase and Delivery</h3>
+    <h3>2. Ticket Purchase and Delivery</h3>
     <ul>
       <li>All tickets are sold on a first-come, first-served basis, subject to availability.</li>
       <li>The total cost of the ticket will be displayed during checkout, including any taxes or processing fees.</li>
@@ -110,6 +110,11 @@
                 
         </div>
     </section>
+    <footer class="footer py-4">
+            <?php
+            include_once('footer.php')
+            ?>
+        </footer>
 
 
     <!-- Bootstrap core JS-->
