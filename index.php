@@ -161,13 +161,11 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
                 </div>
-                
-                <form id="contactForm"  method="post" action="contact.php" >
+                <!-- CONTACT US FORM  -->
+                <form id="contactForm" onsubmit="giveAlert()" method="post" action="contact.php" >
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                         
-
-
                             <!-- Name input-->
                             <div class="form-group">
                                 <input class="form-control" id="name" name="name" type="text" required placeholder="Your Name *" data-sb-validations="required" />
@@ -204,7 +202,7 @@
                     
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit" onclick="giveAlert()">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit" >Send Message</button></div>
                 
                 </form>
             </div>
