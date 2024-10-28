@@ -7,5 +7,6 @@
                         <a class="link-dark text-decoration-none" href="terms.php">Terms of Use</a>
                     </div>
                 </div>
+                
             </div>
 
